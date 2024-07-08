@@ -1,0 +1,247 @@
+body {
+    background-color: rgb(2, 2, 39);
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    ;
+    background-color: rgb(63, 63, 227);
+
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+
+
+.leftSection {
+    width: 100%;
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightSection {
+
+    width: 100%;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 60px 0;
+}
+
+
+.purple {
+    color: rgb(144, 26, 255);
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(175, 175, 190);
+    font-size: 0.99rem;
+
+}
+
+#element {
+    color: rgb(130, 96, 252);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(0, 42, 255);
+    height: 1px;
+    margin: 40px ;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+   
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondSection .vertical {
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin:0 100px;
+
+}
+
+
+
+.img-top {
+    width: 50px;
+    position: relative;
+    top: -32px;
+    left: -19px;
+
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top:100px;
+    color: gray;
+    width: 150px;
+    font-size:9px;
+
+}
+.footerFirst{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+.footerFirst h1{
+    color: rgb(135, 128, 128);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 50px;
+}
+
+.down p{
+    color:rgb(121, 138, 157);
+    font-size: medium;
+    margin-bottom: 10px;
+
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+}
+
+.footer{
+    background-color: rgb(21, 7, 92);
+
+}
+
+.footerline{
+    border: 0;
+    background-color: rgb(21, 46, 172);
+    height: 1px;
+    margin: 40px ;
+   
+}
+
+.lorem{
+    margin-bottom: 40px;
+}
+
+.SK{
+    width:80%;
+}
+
+.left{
+    display: flex;
+    position: relative;
+}
+
+.resume{
+    border:2px solid white;
+   
+    color:white;
+    background-color: blue;
+    size: 10px;
+    padding: 7px;
+    margin: 2px 2px 2px 2px;
+}
+.github{
+    border:2px solid black;
+  
+    color:black;
+    background-color: white;
+    size: 10px;
+    padding: 5px;
+    margin: 2px 2px;
+}
+
+body{background-color: black;
+    color:white;}
+    
+    #Clock{
+        font-size: 20px;
+        background-color: black;
+        border: 2px solid white;
+        padding: 20px 50px;
+        margin-top: 10px;
+       border-radius: 59px;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+      
+       margin-right: -160px;
+     
+       
+    }
+    
+    .center{
+        display: flex;
+        height: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
